@@ -1,0 +1,26 @@
+{
+  "name": "iblue-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon source/server.js",
+    "test": "mocha 'source/test/**/*.js'"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mocha": "^10.0.0",
+    "pg": "^8.7.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.19.0",
+    "should": "^13.2.3",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
